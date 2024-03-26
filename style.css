@@ -612,4 +612,143 @@ form .send-btn:hover{
 .logo:hover{
     text-shadow: 0 0 35px var(--main-color);
 }
+@media(max-width:700px){
+    .h-btn{
+        display: none;
+    }
+    header.sticky{
+        display: flex;
+        justify-content: space-around;
+    }
+    #menu-icon{
+        color: var(--main-color);
+    }
+    
+}
+@media(max-width:360px){
+    .box{
+        min-height: 300px;
+    }
+}
+@media(max-width:376px){
+    .box{
+        min-height: 320px;
+    }
+    .row{
+        min-height: 320px;
+    }
+}
+@media(max-width:391px){
+    .box{
+        min-height: 330px;
+    }
+    .row{
+        min-height: 330px;
+    }
+    form input, form textarea{
+        width: 100%;
+        padding: 10px 20px;
+        margin-bottom: 20px;
+        background: #2d343f;
+        border: 1px solid transparent;
+        border-radius: 8px;
+        color: var(--text-color);
+        font-size: 30px;
+        font-weight: 500;
+        transition: all .50s ease;
+        box-shadow: 0 0 5px var(--main-color);
+    }
+    form input::placeholder, form textarea::placeholder{
+        color: var(--other-color);
+        font-size: 20px;
+        font-weight: 500;
+    }
+    form .send-btn{
+        display: inline-block;
+        padding: 11px 26px;
+        background: var(--main-color);
+        color: var(--bg-color);
+        border: solid 2px var(--main-color);
+        border-radius: 8px;
+        font-size: 15px;
+        font-weight: 600;
+        transition: all .50s ease;
+        width: 50%;
+    }
+}
+@media(max-width:431px){
+    .box{
+        min-height: 340px;
+    }
+    .row{
+        min-height: 340px;
+    }
+    form input, form textarea{
+        width: 100%;
+        padding: 10px 20px;
+        margin-bottom: 20px;
+        background: #2d343f;
+        border: 1px solid transparent;
+        border-radius: 8px;
+        color: var(--text-color);
+        font-size: 35px;
+        font-weight: 500;
+        transition: all .50s ease;
+        box-shadow: 0 0 5px var(--main-color);
+    }
+    form input::placeholder, form textarea::placeholder{
+        color: var(--other-color);
+        font-size: 22px;
+        font-weight: 500;
+    }
+    form .send-btn{
+        display: inline-block;
+        padding: 11px 26px;
+        background: var(--main-color);
+        color: var(--bg-color);
+        border: solid 2px var(--main-color);
+        border-radius: 8px;
+        font-size: 16px;
+        font-weight: 600;
+        transition: all .50s ease;
+        width: 100%;
+    }
+    .copyright p{
+        font-size: 10px;
+    }
+}
+@media(max-height:400px){
+    .navlist a{
+        font-size: 10px;
+        padding: 12px;
+    }
+}
+@media(max-width:600px){
+    .box{
+        min-height: 400px;
+    }
+}
+@media(max-width:290px){
+    .hero{
+        display: none;
+    }
+    .about{
+        display: none;
+    }
+    .posts{
+        display: none;
+    }
+    .projects{
+        display: none;
+    }
+    .navlist{
+        display: none;
+    }
+    
+}
+@media(max-width:1284px){
+    .box{
+        min-height: 430px;
+    }
+}
 
